@@ -1,0 +1,2 @@
+# Ciklusok
+Typescipt ciklusok
