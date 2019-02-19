@@ -25,6 +25,18 @@ class Content {
         if (2 % 2 === 0) {
             res.write("<p>Páros</p>");
         }
+        var num = 5;
+        var factorial = 1;
+        while (num >= 1) {
+            factorial = factorial * num;
+            num--;
+        }
+        res.write("The factorial  is " + factorial);
+        var n = 10;
+        do {
+            res.write("<p>" + n + "<p>");
+            n--;
+        } while (n >= 0);
         res.write("<b>GitHub repository:</b><br>");
         res.write("<a href='https://github.com/bencekovacs322/Ciklusok' target='_blank'>" +
             "https://github.com/bencekovacs322/Ciklusok</a><br>");
