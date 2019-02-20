@@ -30,6 +30,12 @@ export default class Content {
             res.write("<p>" + pet + "<p>"); // "Cat", "Dog", "Hamster"
         }
 
+        var numbers = [1, 2, 3];
+for (var _i = 0; _i < numbers.length; _i++) {
+    var num = numbers[_i];
+    res.write("<p>" + num + "<p>");
+}
+        
         if (2 % 2 === 0) {
             res.write("<p>Páros</p>");
         }
