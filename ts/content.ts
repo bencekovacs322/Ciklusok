@@ -36,9 +36,7 @@ for (var _i = 0; _i < numbers.length; _i++) {
     res.write("<p>" + num + "<p>");
 }
         
-        if (2 % 2 === 0) {
-            res.write("<p>Páros</p>");
-        }
+        
 
         var num = 5;
         var factorial = 1;
